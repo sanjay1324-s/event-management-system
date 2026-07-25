@@ -69,7 +69,7 @@ function Login() {
           {isSignup ? 'Already have an account?' : "Don't have an account?"}
           <span
             onClick={() => { setIsSignup(!isSignup); setError('') }}
-            style={{ color: '#764ba2', cursor: 'pointer', marginLeft: '6px', fontWeight: '600' }}
+            style={{ color: '#ff0000', cursor: 'pointer', marginLeft: '6px', fontWeight: '600' }}
           >
             {isSignup ? 'Login' : 'Sign Up'}
           </span>
